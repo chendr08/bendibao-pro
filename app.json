@@ -3,7 +3,6 @@
     "pages/index/index",
     "pages/message/message",
     "pages/profile/profile",
-    "pages/contact/contact",
     "pages/shopList/shopList"
   ],
   "tabBar": {
@@ -29,13 +28,7 @@
         "text": "个人中心",
         "iconPath": "/assets/tabs/profile.png",
         "selectedIconPath": "/assets/tabs/profile-active.png"
-    },
-      {
-        "pagePath": "pages/contact/contact",
-        "text": "联系我们",
-        "iconPath": "/assets/tabs/contact.png",
-        "selectedIconPath": "/assets/tabs/contact-active.png"
-      }
+    }
       
     ]
   },
