@@ -1,0 +1,63 @@
+<!-- 轮播图 -->
+<view class='banner'>
+  <swiper indicator-dots="{{ true }}" autoplay="{{ true }}"  interval="2000" duration="500" circular>
+	  <swiper-item>
+      <image src="https://image1.suning.cn/uimg/cms/img/154278157750002356.jpg?from=mobile " width="375" height="150" mode="aspectFill" />
+    </swiper-item>
+	  <swiper-item>
+      <image src="http://m.360buyimg.com/mobilecms/jfs/t1/7840/37/7051/149658/5be2c331E961aaca3/1b309d557d8287b2.jpg!cr_1125x549_0_72" width="375" height="150" mode="aspectFill" />
+    </swiper-item>
+  </swiper>
+</view>
+<!-- /轮播图 -->
+<!-- 导航 -->
+<view class='product'>
+  <navigator class='product-item bdr'url='/pages/shopList/shopList'>
+    <image src='/assets/icons/grid-01(1).png'> </image>
+    <text>美食</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-02.png'> </image>
+    <text>洗浴</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-03.png'> </image>
+    <text>购物</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-04.png'> </image>
+    <text>娱乐</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-05.png'> </image>
+    <text>工具</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-06.png'> </image>
+    <text>学习</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-07.png'> </image>
+    <text>洗车</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-08.png'> </image>
+    <text>房屋</text>
+  </navigator>
+  <navigator class='product-item bdr'>
+    <image src='/assets/icons/grid-09.png'> </image>
+    <text>清洁</text>
+  </navigator>
+</view>
+<!-- /导航 -->
+<view class='divider'> </view>
+<!-- 入口链接 -->
+<view class='links'>
+  <navigator class='links-item' >
+    <image src='/assets/images/link-01.png'> </image>
+  </navigator>
+  <navigator class='links-item'>
+    <image src='/assets/images/link-02.png'> </image>
+  </navigator>
+</view>
+<!-- /入口链接 -->

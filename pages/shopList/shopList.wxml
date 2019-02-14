@@ -1,0 +1,30 @@
+
+<view class="shop">
+	<image src="http://p1.meituan.net/200.0/deal/436170046b8b01267a14917173ee4e2e38042.jpg@100_0_400_400a%7C267h_267w_2e_90Q"> </image>
+	<view class="shop-item">
+		<text class="shop-title ell">店铺名称店铺名称店铺名称店铺名称</text>
+		<text class="shop-phone">电话</text>
+		<text class="shop-address">地址</text>
+		<text class="shop-time">营业时间</text>
+	</view>
+	<view class="shop-star">
+        <text class='star-before'>★★★★★</text>
+        <text class='star-after'>★★★★★</text>
+    </view>
+</view>
+<view class="shop ">
+	<image src="http://p1.meituan.net/200.0/deal/9e395b77ccc166e325c64fb2507c33ea49131.jpg@0_137_513_513a%7C267h_267w_2e_90Q"> </image>
+	<view class="shop-item">
+		<text class="shop-title">店铺名称</text>
+		<text class="shop-phone">电话</text>
+		<text class="shop-address">地址</text>
+		<text class="shop-time">营业时间</text>
+	</view>
+	<view class="shop-star">
+        <text class='star-before' style='width: 60%;'>★★★★★</text>
+        <text class='star-after'>★★★★★</text>
+    </view>
+</view>
+<view class='loadmore loading'>加载更多...</view>
+<!-- <view class='loadmore loading' wx:if="{{ hasMore }}">加载更多...</view>
+<view class='loadmore ' wx:else >已经到底啦</view> -->

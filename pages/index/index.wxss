@@ -1,0 +1,66 @@
+/* 轮播图 */
+.banner,
+.banner swiper,
+.banner image {
+  width: 100%;
+  /* 使用rpx单位不用除以2了 */
+  height: 390rpx;
+}
+/* 导航区域 */
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.product .product-item {
+  width: 33.3333%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+  border-bottom: 1rpx solid #ccc;
+  /* box-sizing: border-box; */
+  /* border-right: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc; */
+}
+/* .product .product-item:nth-child(3n) {
+  border-right: none;
+} */
+
+/* 首页导航细线边框实现方式2伪元素 */
+/* .product .product-item::after {
+  content: " ";
+  width: 1rpx;
+  height: 100%;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+.product .product-item:nth-child(3n)::after {
+  width: 0;
+}
+
+.product .product-item image {
+  width: 80rpx;
+  height: 80rpx;
+}
+.product .product-item text {
+  font-size: 14px;
+}
+/* 链接入口 */
+.links {
+  display: flex;
+  padding: 20rpx 30rpx;
+}
+.links .links-item {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.links .links-item image {
+  width: 320rpx;
+  height: 178rpx;
+}

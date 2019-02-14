@@ -1,0 +1,17 @@
+<view class='card'>
+    <text class='card-title' >标题111</text>
+    <text class='card-date' >2018-08-08</text>
+    <image src='https://image.suning.cn/uimg/aps/material/154279837135872193.jpg?from=mobile' mode='aspectFill' class='card-img' >
+    </image>
+    <text class='card-desc'>越努力，越幸运~</text>
+    <text class='card-detail arrow' >查看详情</text>
+</view>
+<view class='card'>
+    <text class='card-title' >标题111</text>
+    <text class='card-date' >2018-08-08</text>
+    <image src='https://image.suning.cn/uimg/aps/material/154279837135872193.jpg?from=mobile' mode='aspectFill' class='card-img' >
+    </image>
+    <text class='card-desc'>越努力，越幸运~</text>
+    <text class='card-detail arrow' >查看详情</text>
+</view>
+
